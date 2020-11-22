@@ -8,7 +8,10 @@
     "start1": "nodemon app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sonar": "node sonar-project.js"
+    "sonar": "node sonar-project.js",
+    "publishConfig": {
+    "registry": "http://18.222.75.189:8081/repository/nodejs/"
+  },
   },
   "dependencies": {
     "cfenv": "^1.1.0",
