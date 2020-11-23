@@ -15,6 +15,7 @@ node
      } 
     }
     
+    /*
     stage('ExecuteSonarQubeReport')
     {
         
@@ -30,4 +31,5 @@ node
          sh "npm start &"  
      } 
     }
+    */
 }
